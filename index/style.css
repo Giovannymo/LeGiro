@@ -3,9 +3,16 @@
   padding: 0;
   font-family: "Poppins";
 }
-
+/* ? HEADER */
 #cabecera {
   width: 100%;
+}
+#pantalla {
+  width: 200px;
+  height: 50px;
+  margin-left: 100px;
+  background-color: transparent;
+  float: left;
 }
 #logo {
   position: absolute;
@@ -55,6 +62,7 @@ p {
   float: none;
   clear: both;
 }
+/* ? TITULOS */
 #titulo-1,
 #titulo-2 {
   display: block;
@@ -73,7 +81,6 @@ p {
 
 /*? CATEGORIAS INDEX */
 #categorias-cajas {
-  background-color: aqua;
   width: 85%;
   height: 300px;
   margin: auto;
@@ -82,11 +89,22 @@ p {
 #categoria1,
 #categoria2,
 #categoria3 {
+  overflow: hidden;
   float: left;
   width: 300px;
   height: 300px;
   background-color: antiquewhite;
+  opacity: 50%;
 }
+
+#categoria1:hover,
+#categoria2:hover,
+#categoria3:hover {
+  color: white;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
 #categoria3 {
   float: right;
 }
@@ -94,10 +112,39 @@ p {
   margin-left: 180px;
   margin-right: 175px;
 }
+#ciclistaH {
+  width: 500px;
+  height: 300px;
+  margin-left: -85px;
+}
+#categoria1 h1,
+#categoria2 h1,
+#categoria3 h1 {
+  display: block;
+  position: absolute;
+  width: 20%;
+  margin: 200px auto;
+  text-align: center;
+}
+
+#categoria1 a,
+#categoria2 a,
+#categoria3 a {
+  color: white;
+}
+
+#ciclistaM {
+  width: 300px;
+}
+#ciclistaN {
+  width: 400px;
+  height: 300px;
+  margin-left: -50px;
+}
+
 /*? SLIDE AUTOMATICO */
 .swiper-container {
   position: relative !important;
-
   width: 85%;
   height: 250px;
 }
