@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <title>Le Giro Sport | Ropa deportiva</title>
+  </head>
+
+  <body>
+    <header id="cabecera">
+      <div id="logo">
+        <a href="./index.html"
+          ><img id="img-logo" src="../img/logo legiro.png" alt="Logo LE GIRO"
+        /></a>
+      </div>
+
+      <div id="triangulo"></div>
+      <div id="header">
+        <nav>
+          <ul>
+            <li><a href="#">HOMBRE</a></li>
+            <li><a href="#">MUJER</a></li>
+            <li><a href="#">NIÑOS</a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            <li><a href="#">ENCUENTRANOS</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clear-fix"></div>
+    </header>
+
+    <main>
+      <!-- Swiper -->
+      <div id="titulo-1">
+        <h1>NUEVAS OFERTAS</h1>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".swiper-container", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+      <!--!   CONTENIDO CATEGORIAS  -->
+      <div id="contenido2">
+        <div id="titulo-2">
+          <h1>¿QUÉ ESTÁS BUSCANDO?</h1>
+        </div>
+        <div id="categorias-cajas">
+          <div id="categoria1"></div>
+          <div id="categoria2"></div>
+          <div id="categoria3"></div>
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </main>
+
+    <footer id="footer">
+      <div id="redes">
+        <h1>REDES SOCIALES</h1>
+        <img src="../img/instagram.png" alt="Instagram" id="instagram-icono" style="width:25px" />
+        <a href="instagram.com/legirosport">  instagram.com/legirosport</a> <br />
+        <img src="../img/facebook.png" alt="Facebook" id="facebook-icono" style="width:25px" />
+        <a href="facebook.com/legirosport">  facebook.com/legirosport</a><br />
+        <img src="../img/whatsapp.png" alt="Whatsapp" id="whatsapp-icono" style="width:25px"/>
+        <a href="instagram.com/legirosport">  instagram.com/legirosport</a>
+      </div>
+      <div id="direccion">
+        <h1>DIRECCIÓN</h1>
+        <p>
+          Estamos ubicados en <br />
+          Cl.5 # 10-52, Floridablanca, Santander. <br />
+          <strong> Horario de atención:</strong>  <br> Lunes a Sábado de 9am a 12pm y 2pm a 6pm.
+        </p>
+      </div>
+      <div id="descripcion">
+        <a href="">
+          <img
+            src="../img/logo legiro blanco.png"
+            alt="logo legiro"
+            style="width: 100px;"
+          />
+        </a>
+        <p>
+          SOMOS UNA EMPRESA CON MÁS DE 37 AÑOS EN EL AMBITO DEPORTIVO, GENERANDO
+          EMPLEO AQUELLAS MADRES AMAS DE CASAS QUE LO NECESITAN.
+        </p>
+        <p>PRODUCTOS DE CALIDAD 100% SANTANDEREANO.</p>
+      </div>
+      <div class="clear-fix"></div>
+      <div id="copy">
+          <p><a href="Copyrigth © 2020">"Copyrigth © 2020"</a>| LE GIRO SPORT |  FLORIDABLANCA- SANTANDER</p>
+      </div>
+  </body>
+</html>
