@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+/* ? HEADER */
+#cabecera {
+  width: 100%;
+}
+#pantalla {
+  width: 200px;
+  height: 50px;
+  margin-left: 100px;
+  background-color: transparent;
+  float: left;
+}
+#logo {
+  position: absolute;
+  width: 30%;
+  height: 60px;
+  float: left;
+  background-color: #48e120;
+  z-index: -1;
+}
+#img-logo {
+  display: block;
+  width: 140px;
+  margin: auto;
+  margin-left: 25%;
+  padding-top: 8px;
+  z-index: 1 !important;
+}
+
+#header {
+  display: block;
+  float: right;
+  width: 72%;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-bottom: 60px solid #31211f;
+  z-index: 1;
+  line-height: 60px;
+}
+#header li {
+  display: block;
+  float: left;
+  padding-right: 45px;
+}
+#header li:first-child {
+  margin-left: 35%;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 20px;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+/* ? BARRA LATERAL */
+#barra {
+  position: fixed;
+  float: left;
+  width: 13%;
+  height: 540px;
+  margin-left: 40px;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  box-shadow: 0px 0px 3px;
+}
+#barra h1 {
+  margin-top: 16px;
+  margin-left: 45px;
+}
+#barra li {
+  margin-left: 45px;
+  list-style: none;
+  margin-top: 10px;
+}
+#barra a {
+  color: black;
+  text-decoration: none;
+}
+/*? TARJETAS DE PRODUCTO*/
+
+#contenedor {
+  float: rigth;
+  width: 72%;
+  margin-top: 40px;
+  margin-left: 20%;
+  background-color: #2c2c2c;
+}
+.tarjeta {
+  width: 28%;
+  height: 350px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.tarjeta img {
+  display: block;
+  width: 220px;
+  height: 250px;
+  margin: auto;
+  padding: 5px;
+  box-shadow: 0px 0px 3px black;
+}
+.descripcion-tarjeta {
+  width: 250px;
+  height: 84px;
+  margin-left: 32px;
+  margin-top: 4px;
+}
+.tarjeta p {
+  float: left;
+}
+.tarjeta #descuento-tarjeta {
+  text-decoration: line-through;
+  color: #48e120;
+}
+#contenedor a {
+  color: #48e120;
+}
+#contenedor h5 {
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  margin-top: -5px;
+  margin-left: 2px;
+  padding-left: 10px;
+  background-color: #48e120;
+}
