@@ -1,0 +1,11 @@
+#contenedor {
+  margin-left: 5%;
+  width: 90%;
+}
+.tarjeta {
+  margin-left: 5px;
+  width: 24%;
+}
+.descripcion-tarjeta {
+  margin-left: 45px;
+}
