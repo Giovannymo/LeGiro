@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+/* ? HEADER */
+#cabecera {
+  width: 100%;
+}
+#pantalla {
+  width: 200px;
+  height: 50px;
+  margin-left: 100px;
+  background-color: transparent;
+  float: left;
+}
+#logo {
+  position: absolute;
+  width: 30%;
+  height: 60px;
+  float: left;
+  background-color: #48e120;
+  z-index: -1;
+}
+#img-logo {
+  display: block;
+  width: 140px;
+  margin: auto;
+  margin-left: 25%;
+  padding-top: 8px;
+  z-index: 1 !important;
+}
+
+#header {
+  display: block;
+  float: right;
+  width: 72%;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-bottom: 60px solid #31211f;
+  z-index: 1;
+  line-height: 60px;
+}
+#header li {
+  display: block;
+  float: left;
+  padding-right: 45px;
+}
+#header li:first-child {
+  margin-left: 35%;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 20px;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+
+/* ? UBICACIÓN LOGO - LE GIRO SPORT*/
+
+#logo-nosotros {
+  display: block;
+  width: 100%;
+  height: 100px;
+
+  margin: auto;
+  margin-top: 50px;
+}
+#logo-nosotros img {
+  display: block;
+  margin: auto;
+}
+
+/* ? CONTENIDO DESCRIPCIÓN LE GIRO*/
+
+.contenido-nosotros {
+  overflow: hidden;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.contenido-nosotros img {
+  width: 30%;
+  padding: 20px;
+}
+.texto1 {
+  float: right;
+  width: 60%;
+  height: 100%;
+  font-size: 17px;
+}
+.texto2 {
+  float: left;
+  width: 60%;
+  height: 100%;
+  font-size: 17px;
+}
+.titulos {
+  margin-bottom: 15px;
+  color: #48e120;
+}
+#parrafo1 p {
+  margin-top: 20px;
+}
+
+/* ? FOOTER */
+#footer {
+  width: 100%;
+  height: 250px;
+  padding: 25px 0px 25px 0px;
+  background-color: #31211f;
+}
+#footer h1 {
+  font-size: 20px;
+}
+#footer p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+#redes {
+  float: left;
+  margin-left: 100px;
+  width: 250px;
+  height: 150px;
+  font-size: 10px;
+  color: white;
+}
+#redes a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#direccion {
+  float: left;
+  margin-left: 200px;
+  width: 250px;
+  height: 150px;
+  color: white;
+}
+#descripcion {
+  overflow: hidden;
+  margin-left: 300px;
+  float: left;
+  width: 300px;
+  height: 220px;
+  color: white;
+}
+#instagram-icono,
+#facebook-icono,
+#whatsapp-icono {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+#copy {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#copy a {
+  color: #48e120;
+}
