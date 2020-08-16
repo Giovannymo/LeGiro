@@ -61,7 +61,8 @@
 }
 /* ? TITULOS */
 #titulo-1,
-#titulo-2 {
+#titulo-2,
+#titulo-3 {
   display: block;
   width: 30%;
   text-align: center;
@@ -74,6 +75,9 @@
 #titulo-2 {
   width: 40%;
   margin-top: 40px;
+}
+#titulo-3 {
+  width: 40%;
 }
 
 /*? CATEGORIAS INDEX */
@@ -164,6 +168,7 @@
   -webkit-align-items: center;
   align-items: center;
 }
+
 /* ? FOOTER */
 #footer {
   width: 100%;
